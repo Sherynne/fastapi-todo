@@ -9,7 +9,7 @@ While this is primarily a backend project, it was developed with the help of gen
 The AI Prompt Journal included in this repository shows exactly how AI was used to assist learning and implementation.This project was completed as part of the Moringa School backend development learning track.
 
 
-Features
+ Features
 
 * Create a todo item
 * Retrieve all todos
@@ -17,7 +17,7 @@ Features
 * Update a todo item
 * Delete a todo item
 
-
+---
 
 Installation & Setup
 
@@ -99,7 +99,7 @@ curl -X PUT 'http://127.0.0.1:8000/todos/1' -H 'accept: application/json' -H 'Co
 
 ---
 
-## AI Prompt Journal
+ AI Prompt Journal
 
 | Prompt Used                              | AI Response Summary                                               | Reflection                                                                      |
 | ---------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------- |
@@ -111,36 +111,36 @@ curl -X PUT 'http://127.0.0.1:8000/todos/1' -H 'accept: application/json' -H 'Co
 
 ---
 
-## Common Errors & Fixes
+ Common Errors & Fixes
 
-1. **Pydantic not found**
+1. Pydantic not found
 
    * **Cause:** Dependencies not installed in virtual environment.
    * **Solution:** `pip install pydantic fastapi uvicorn`
 
-2. **Virtual environment activation issues**
+2. Virtual environment activation issues
 
    * **Cause:** Using wrong activation command for PowerShell.
    * **Solution:** Use `.venv\Scripts\Activate` for Windows PowerShell.
 
-3. **Merge conflicts when pushing to GitHub**
+3. Merge conflicts when pushing to GitHub
 
    * **Cause:** Remote repository had pre-existing files.
    * **Solution:** `git pull origin main --allow-unrelated-histories`, resolve conflicts, then `git push`.
 
-4. **Accidentally committing `.idea` or `__pycache__`**
+4. Accidentally committing `.idea` or `__pycache__`
 
    * **Cause:** IDE and cache files included in commit.
    * **Solution:** Add `.gitignore` with `.venv/`, `__pycache__/`, `.idea/`, then remove cached files using `git rm -r --cached <files>`.
 
-5. **SyntaxError in main.py**
+5. SyntaxError in main.py
 
    * **Cause:** Extra text or copy-paste errors in Python file.
    * **Solution:** Remove any trailing text after `return` statements and validate code.
 
 ---
 
-## References
+References
 
 * [FastAPI Official Documentation](https://fastapi.tiangolo.com/)
 * [Pydantic Documentation](https://docs.pydantic.dev/)
@@ -149,9 +149,7 @@ curl -X PUT 'http://127.0.0.1:8000/todos/1' -H 'accept: application/json' -H 'Co
 
 ---
 
-## Author
 
-**Dominic Kabiru** – Project for **Moringa School**
 
 
 
