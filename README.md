@@ -9,15 +9,7 @@ While this is primarily a backend project, it was developed with the help of gen
 The AI Prompt Journal included in this repository shows exactly how AI was used to assist learning and implementation.This project was completed as part of the Moringa School backend development learning track.
 
 
- # FastAPI Todo App
-
-## Overview
-
-This is a **FastAPI Todo API** that demonstrates CRUD operations (Create, Read, Update, Delete) using an in-memory data store. This project was created as part of the **Moringa School Backend Development Track**.
-
----
-
-## Features
+Features
 
 * Create a todo item
 * Retrieve all todos
@@ -25,9 +17,9 @@ This is a **FastAPI Todo API** that demonstrates CRUD operations (Create, Read, 
 * Update a todo item
 * Delete a todo item
 
----
 
-## Installation & Setup
+
+Installation & Setup
 
 1. Clone the project
 
