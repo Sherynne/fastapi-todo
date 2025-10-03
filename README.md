@@ -1,4 +1,4 @@
-FastAPI Todo App
+FastAPI Todo API
 
 Overview
 
