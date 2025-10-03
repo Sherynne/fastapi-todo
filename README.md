@@ -24,7 +24,8 @@ Installation & Setup
 1. Clone the project
 
 ```bash
-git clone <your-repo-link>
+ git clone https://github.com/Sherynne/fastapi-todo.git
+
 cd PythonProject2
 ```
 
